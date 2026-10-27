@@ -107,11 +107,32 @@
 //     console.log(visitor.tickerPrice);
 // }
 
-const order = {
-  subtotal: 80000,
-  coupon: "SAVE10",
-  couponUsed: false,
-};
-if (order.couponUsed===true){
-    console.log("Купон ашиглагдсан");
-}else if()
+// const order = {
+//   subtotal: 80000,
+//   coupon: "SAVE10",
+//   couponUsed: false,
+// };
+// if (order.couponUsed === true) {
+//   console.log("Купон ашиглагдсан");
+// } else if (order.coupon === "SAVE10" && order.subtotal >= 50000 && order.couponUsed===false) {
+//   console.log((order.subtotal = order.subtotal - order.subtotal * 0.1));
+// } else {
+//   console.log("Купон хэрэглэх боломжгүй");
+// }
+
+// const member = {
+//   name: "Номин",
+//   borrowedBooks: ["Атлас", "Нууц арал"],
+//   hasOverdue: false,
+// };
+// if (member.hasOverdue === true) {
+//   console.log("Хугацаа хэтэрсэн тул ном зээлэхгүй");
+// } else if (member.hasOverdue === false && member.borrowedBooks.length < 3) {
+//   member.borrowedBooks.push("Оддын тухай");
+//   console.log(member.borrowedBooks);
+// } else {
+//   console.log("Зээлэх номын хязгаарт хүрсэн");
+// }
+
+const seats = ["Сул", "Захиалсан", "Сул"];
+const selectedIndex = 2;
